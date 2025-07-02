@@ -1,75 +1,20 @@
-# Nuxt Minimal Starter
+# BookCart 前端
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+這是 BookCart 書籍電商平台的前端專案，使用 Nuxt 3 搭建，包含商品瀏覽、搜尋、購物車與結帳流程，並串接後端 REST API。
 
-## Setup
+## 專案技術
 
-Make sure to install dependencies:
+- Nuxt 3 3.17.6
+- TypeScript
+- Tailwind CSS 4.1.11
+- Pinia
+- VueUse
 
-```bash
-# npm
-npm install
+## 專案結構
 
-# pnpm
-pnpm install
+- `components/` UI 元件
 
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+- `pages/` 路由頁面
+- `composables/` API hooks
+- `store/` Pinia 狀態管理
+- `assets/` 圖片 & 樣式
