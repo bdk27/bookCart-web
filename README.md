@@ -7,7 +7,7 @@
 - Nuxt 3 3.17.6
 - TypeScript
 - Tailwind CSS 4.1.11
-- Pinia
+- Pinia 3.0.3
 - VueUse
 
 ## 專案結構
